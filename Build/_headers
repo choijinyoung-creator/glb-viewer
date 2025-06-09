@@ -1,0 +1,10 @@
+/Build/*.wasm
+  Content-Type: application/wasm
+  Content-Encoding:
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Opener-Policy: same-origin
+
+/test_server/lod2/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, OPTIONS
+  Access-Control-Allow-Headers: *
